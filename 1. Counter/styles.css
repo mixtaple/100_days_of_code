@@ -40,17 +40,19 @@ img {
   padding: 0 20px;
   display: flex;
   justify-content: center;
+  height: 100vh;
 }
 
 .counter {
-  width: 400px;
-  min-height: 200px;
+  width: 500px;
+  height: 40%;
   background-color: var(--blue);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 50px 0;
+  border-radius: 10px;
 }
 .counter__title {
   color: var(--white);
