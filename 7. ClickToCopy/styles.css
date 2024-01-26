@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --light-orange: #ffc392;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--blue);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.copier {
+  height: 200px;
+  width: 400px;
+  color: var(--white);
+  font-size: 20px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0;
+  border-radius: 10px;
+}
+
+.copier__text {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  background-color: var(--grey);
+  color: var(--dark-grey);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.copier__text:hover {
+  box-shadow: 0 0 30px var(--color-sec);
+}
+
+.copier__button {
+  background: none;
+  width: 100px;
+  border: 2.5px solid var(--blue);
+  border-radius: 10px;
+  color: var(--blue);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.copier__controls {
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.copier__title {
+  font-size: 30px;
+  color: var(--blue);
+}
+
+.copier__description {
+  margin-top: 20px;
+  font-size: 20px;
+  color: var(--blue);
+}

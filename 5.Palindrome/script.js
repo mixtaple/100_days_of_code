@@ -11,7 +11,6 @@ const checkPalindrome = (str) => {
 checkerButton.addEventListener('click', (e) => {
   e.preventDefault();
   const value = checkerInput.value;
-  console.log(value);
   if (checkPalindrome(value)) {
     checkerResult.textContent = `String "${value}" is palindrome`;
   } else {
